@@ -24,6 +24,9 @@ Website/
 - Consistent design across all pages  
 - Only HTML & CSS used (No Bootstrap / No JavaScript)
 
+## Live Demo
+link: https://ashnaali3255.github.io/UNI_Project/
+
 ## 👩‍💻 Developed By
 Name: Ashna Ali  
 Roll No: 2048  
