@@ -1,0 +1,221 @@
+Reset Default 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #0c4201, #066e48);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover,
+.active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+/* ===== Professional Hero Section ===== */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Different Backgrounds for Each Page */
+.home-bg {
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+}
+
+.about-bg {
+    background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+}
+
+.contact-bg {
+    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d');
+}
+
+/* Dark Overlay */
+.overlay {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 39px;
+    border-radius: 12px;
+    color: white;
+    width: 60%;
+}
+
+/* Headings */
+.overlay h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.overlay p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.btn {
+    background: #1cc88a;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #17a673;
+}
+
+/* Form Styling Inside Hero */
+.overlay form {
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay input,
+.overlay textarea {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+.overlay button {
+    padding: 12px;
+    border: none;
+    background: #4e73df;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.overlay button:hover {
+    background: #2e59d9;
+}
+
+/* Button */
+.btn {
+    text-decoration: none;
+    background-color: #4e73df;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #2e59d9;
+}
+
+/* Content Section */
+.content {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Form Styling */
+.overlay form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.overlay input,
+.overlay textarea {
+    width: 70%;            
+    max-width: 400px;      
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+}
+
+.overlay textarea {
+    height: 100px;        
+    resize: none;          
+}
+
+.overlay button {
+    width: 40%;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #17a673;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
